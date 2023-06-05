@@ -23,21 +23,25 @@ class Categories extends React.Component {
     const { categoriesList } = this.state;
     const { getProducts } = this.props;
     return (
-      <div>
+      <nav>
         <h1>Categorias:</h1>
+        <div className="line1" />
         {categoriesList.map((categorie) => (
-          <button
-            key={ categorie.id }
-            id={ categorie.id }
-            type="button"
-            data-testid="category"
-            onClick={ getProducts }
-          >
-            {categorie.name}
+          <div className="" key={ categorie.id }>
+            <button
+              key={ categorie.id }
+              id={ categorie.id }
+              type="button"
+              data-testid="category"
+              onClick={ getProducts }
 
-          </button>
+            >
+              {categorie.name}
+
+            </button>
+          </div>
         ))}
-      </div>
+      </nav>
     );
   }
 }

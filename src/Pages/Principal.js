@@ -84,18 +84,20 @@ class Principal extends React.Component {
     const { campoDeBusca, valor, resultadoDaBusca, quantidadeCarrinho } = this.state;
     return (
       <div>
-        <div>
+        <div className="header">
           <input
             value={ campoDeBusca }
             onChange={ this.onChange }
             name="campoDeBusca"
             type="text"
             data-testid="query-input"
+            className="inputSearch"
           />
           <button
             type="button"
             data-testid="query-button"
             onClick={ this.handleClick }
+            className="buttonSearch"
           >
             Pesquisar
           </button>

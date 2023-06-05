@@ -2,3 +2,37 @@ body {
   background-color: aquamarine;
   color: red;
 }
+
+.header {
+  align-items: center;
+  justify-content: center;
+  background-color: #003be5;
+  height: 148px;
+  width: 1334px;
+  left: -28px;
+  top: 106px;
+  border-radius: 0px;
+}
+
+.inputSearch {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 238px;
+  height: 35px;
+  left: 36px;
+  top: 33px;
+
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.buttonSearch {
+  position: absolute;
+  left: 19.14%;
+  right: 79.3%;
+  top: 5.56%;
+  bottom: 91.67%;
+
+  background: #2fc18c;
+}

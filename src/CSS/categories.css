@@ -1,0 +1,33 @@
+nav {
+  position: absolute;
+  width: 310px;
+  height: 662px;
+  left: 0px;
+  top: 150px;
+
+  background: #ffffff;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.line1 {
+  width: 238px;
+  height: 0px;
+  left: 36px;
+  top: 190px;
+  border: 1px solid #b0b3bb;
+}
+
+/* .contentCategories {
+  width: 172px;
+  height: 506px;
+  left: 36px;
+  top: 223px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #444955;
+  justify-content: space-around;
+  flex-direction: column;
+} */
